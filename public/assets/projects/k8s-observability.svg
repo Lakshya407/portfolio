@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080B1E"/>
+      <stop offset="1" stop-color="#141A33"/>
+    </linearGradient>
+    <linearGradient id="cpu" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#33C2CC" stop-opacity="0"/>
+      <stop offset="1" stop-color="#33C2CC" stop-opacity=".3"/>
+    </linearGradient>
+    <linearGradient id="mem" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#7A57DB" stop-opacity="0"/>
+      <stop offset="1" stop-color="#7A57DB" stop-opacity=".25"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <circle cx="26" cy="23" r="5" fill="#EA4884"/>
+  <circle cx="44" cy="23" r="5" fill="#D6995C"/>
+  <circle cx="62" cy="23" r="5" fill="#57DB96"/>
+  <text x="82" y="27" fill="#7D86A8" font-size="12">grafana — kubernetes-prod / cluster overview</text>
+  <text x="776" y="27" text-anchor="end" fill="#57DB96" font-size="12">● live · last 6h</text>
+  <line x1="0" y1="46" x2="800" y2="46" stroke="#FFFFFF" stroke-opacity=".07"/>
+
+  <g>
+    <rect x="24" y="62" width="176" height="66" rx="10" fill="#131A33" stroke="#232C4D"/>
+    <text x="40" y="84" fill="#7D86A8" font-size="10">CPU USAGE</text>
+    <text x="40" y="112" fill="#E7E9F5" font-size="22" font-weight="700">42%</text>
+    <text x="104" y="112" fill="#57DB96" font-size="10">▼ 6%</text>
+
+    <rect x="214" y="62" width="176" height="66" rx="10" fill="#131A33" stroke="#232C4D"/>
+    <text x="230" y="84" fill="#7D86A8" font-size="10">MEMORY</text>
+    <text x="230" y="112" fill="#E7E9F5" font-size="22" font-weight="700">61%</text>
+    <text x="294" y="112" fill="#D6995C" font-size="10">▲ 3%</text>
+
+    <rect x="404" y="62" width="176" height="66" rx="10" fill="#131A33" stroke="#232C4D"/>
+    <text x="420" y="84" fill="#7D86A8" font-size="10">PODS READY</text>
+    <text x="420" y="112" fill="#E7E9F5" font-size="22" font-weight="700">38/40</text>
+    <text x="492" y="112" fill="#57DB96" font-size="10">2 pending</text>
+
+    <rect x="594" y="62" width="182" height="66" rx="10" fill="#131A33" stroke="#232C4D"/>
+    <text x="610" y="84" fill="#7D86A8" font-size="10">P95 LATENCY</text>
+    <text x="610" y="112" fill="#E7E9F5" font-size="22" font-weight="700">214<tspan font-size="11" fill="#7D86A8"> ms</tspan></text>
+    <text x="672" y="112" fill="#57DB96" font-size="10">SLO ok</text>
+  </g>
+
+  <rect x="24" y="144" width="500" height="206" rx="10" fill="#0E142C" stroke="#232C4D"/>
+  <text x="40" y="168" fill="#DDE2F5" font-size="12" font-weight="700">Request volume · CPU vs memory</text>
+  <g stroke="#FFFFFF" stroke-opacity=".06">
+    <line x1="60" y1="196" x2="500" y2="196"/><line x1="60" y1="232" x2="500" y2="232"/>
+    <line x1="60" y1="268" x2="500" y2="268"/><line x1="60" y1="304" x2="500" y2="304"/><line x1="60" y1="330" x2="500" y2="330"/>
+  </g>
+  <g fill="#5C6485" font-size="9">
+    <text x="34" y="199">100</text><text x="40" y="235">75</text><text x="40" y="271">50</text><text x="40" y="307">25</text>
+    <text x="62" y="344">00:00</text><text x="190" y="344">04:00</text><text x="318" y="344">08:00</text><text x="440" y="344">12:00</text>
+  </g>
+
+  <path d="M60 300 L104 288 L148 294 L192 268 L236 276 L280 246 L324 252 L368 232 L412 240 L456 218 L500 224 L500 330 L60 330 Z" fill="url(#cpu)"/>
+  <polyline points="60,300 104,288 148,294 192,268 236,276 280,246 324,252 368,232 412,240 456,218 500,224" fill="none" stroke="#33C2CC" stroke-width="2"/>
+
+  <path d="M60 280 L104 272 L148 278 L192 258 L236 262 L280 240 L324 244 L368 228 L412 234 L456 220 L500 226 L500 330 L60 330 Z" fill="url(#mem)"/>
+  <polyline points="60,280 104,272 148,278 192,258 236,262 280,240 324,244 368,228 412,234 456,220 500,226" fill="none" stroke="#7A57DB" stroke-width="1.6"/>
+
+  <g font-size="10">
+    <rect x="366" y="158" width="8" height="8" rx="2" fill="#33C2CC"/><text x="380" y="166" fill="#8B93B0">cpu</text>
+    <rect x="416" y="158" width="8" height="8" rx="2" fill="#7A57DB"/><text x="430" y="166" fill="#8B93B0">memory</text>
+  </g>
+
+  <rect x="540" y="144" width="236" height="206" rx="10" fill="#131A33" stroke="#232C4D"/>
+  <text x="556" y="168" fill="#DDE2F5" font-size="12" font-weight="700">CPU by namespace</text>
+  <g font-size="10">
+    <text x="556" y="200" fill="#8B93B0">web-logic</text><text x="760" y="200" text-anchor="end" fill="#E7E9F5">32%</text>
+    <rect x="556" y="206" width="204" height="6" rx="3" fill="#232C4D"/><rect x="556" y="206" width="132" height="6" rx="3" fill="#33C2CC"/>
+
+    <text x="556" y="238" fill="#8B93B0">monitoring</text><text x="760" y="238" text-anchor="end" fill="#E7E9F5">18%</text>
+    <rect x="556" y="244" width="204" height="6" rx="3" fill="#232C4D"/><rect x="556" y="244" width="76" height="6" rx="3" fill="#7A57DB"/>
+
+    <text x="556" y="276" fill="#8B93B0">kube-system</text><text x="760" y="276" text-anchor="end" fill="#E7E9F5">14%</text>
+    <rect x="556" y="282" width="204" height="6" rx="3" fill="#232C4D"/><rect x="556" y="282" width="58" height="6" rx="3" fill="#57DB96"/>
+
+    <text x="556" y="314" fill="#8B93B0">ingress-nginx</text><text x="760" y="314" text-anchor="end" fill="#E7E9F5">9%</text>
+    <rect x="556" y="320" width="204" height="6" rx="3" fill="#232C4D"/><rect x="556" y="320" width="38" height="6" rx="3" fill="#D6995C"/>
+  </g>
+
+  <rect x="24" y="366" width="752" height="110" rx="10" fill="#0E142C" stroke="#232C4D"/>
+  <text x="40" y="390" fill="#DDE2F5" font-size="12" font-weight="700">Alerting · Alertmanager</text>
+  <g font-size="10">
+    <circle cx="46" cy="412" r="4" fill="#57DB96"/><text x="58" y="416" fill="#9AA3C0">All SLOs within budget — no firing alerts</text><text x="520" y="416" fill="#57DB96" text-anchor="end">ok</text>
+    <circle cx="46" cy="436" r="4" fill="#57DB96"/><text x="58" y="440" fill="#9AA3C0">node-exporter · 3/3 targets up</text><text x="520" y="440" fill="#8B93B0" text-anchor="end">scrape 15s</text>
+    <circle cx="46" cy="460" r="4" fill="#33C2CC"/><text x="58" y="464" fill="#9AA3C0">certificate renewal — web-logic.in · 21 days left</text><text x="520" y="464" fill="#33C2CC" text-anchor="end">scheduled</text>
+  </g>
+  <text x="742" y="390" text-anchor="end" fill="#57DB96" font-size="10">● 0 firing</text>
+</svg>
