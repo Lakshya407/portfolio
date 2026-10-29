@@ -18,7 +18,7 @@ const HeroText = () => {
           animate="visible"
           transition={{ delay: 1 }}
         >
-          Hi, I&apos;m Lakshya
+          Hi, we&apos;re the web-logic team
         </motion.h1>
         <div className="flex flex-col items-start">
           <motion.p
@@ -28,8 +28,7 @@ const HeroText = () => {
             animate="visible"
             transition={{ delay: 1.2 }}
           >
-            Founder of <span className="font-semibold text-white">web-logic</span>,
-            <br /> building and scaling
+            A team building what&apos;s next
           </motion.p>
           <motion.div
             variants={variants}
@@ -85,7 +84,7 @@ const HeroText = () => {
           animate="visible"
           transition={{ delay: 1 }}
         >
-          Hi, I&apos;m Lakshya
+          Hi, we&apos;re the web-logic team
         </motion.p>
         <motion.p
           className="text-lg text-neutral-300"
@@ -94,7 +93,7 @@ const HeroText = () => {
           animate="visible"
           transition={{ delay: 1.1 }}
         >
-          Founder of <span className="font-semibold text-white">web-logic</span>
+          Building together
         </motion.p>
         <div>
           <motion.p
@@ -104,7 +103,7 @@ const HeroText = () => {
             animate="visible"
             transition={{ delay: 1.2 }}
           >
-            Building
+            Together, we build
           </motion.p>
           <motion.div
             variants={variants}
