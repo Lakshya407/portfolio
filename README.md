@@ -1,6 +1,6 @@
 # web-logic — Portfolio
 
-Portfolio and studio site for **Lakshya**, owner of **web-logic**.
+Portfolio and studio site for **web-logic**.
 
 The site covers full stack web development plus Linux, Docker, Kubernetes, cloud and AIOps — with live client work, services, experience and a working contact form.
 
