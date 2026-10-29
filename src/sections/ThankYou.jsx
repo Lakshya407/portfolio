@@ -51,7 +51,7 @@ const ThankYou = () => {
 
         <h1 className="text-3xl font-bold md:text-4xl">Message received</h1>
         <p className="max-w-md mx-auto mt-4 text-neutral-400">
-          Thanks for reaching out. I&apos;ll reply from{" "}
+          Thanks for reaching out. Our team will reply from{" "}
           <span className="text-white">logicweb48@gmail.com</span> within one
           working day.
         </p>
@@ -63,7 +63,7 @@ const ThankYou = () => {
           <ul className="space-y-2 text-sm text-neutral-400">
             <li className="flex gap-2">
               <span className="text-aqua">1.</span>
-              I read your message and check if I&apos;m the right fit.
+              Our team reviews your message and checks how we can help.
             </li>
             <li className="flex gap-2">
               <span className="text-aqua">2.</span>
@@ -87,7 +87,7 @@ const ThankYou = () => {
             href="mailto:logicweb48@gmail.com"
             className="px-5 py-2.5 text-sm font-medium rounded-full border border-white/15 text-neutral-200 hover:border-white/40 hover:text-white hover-animation"
           >
-            Email me directly
+            Email our team
           </a>
         </div>
 

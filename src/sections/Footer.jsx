@@ -38,7 +38,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex flex-wrap justify-between gap-2 pt-6 mt-8 text-xs border-t border-white/5 text-neutral-500">
-        <p>© 2026 Lakshya · web-logic. All rights reserved.</p>
+        <p>© 2026 web-logic. All rights reserved.</p>
         <p>India · working worldwide</p>
       </div>
     </section>

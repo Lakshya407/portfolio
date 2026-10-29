@@ -108,12 +108,12 @@ If you host it yourself, point the site root at `dist/` and add `try_files $uri 
 
 ## Contributors
 
-- **Lakshya** — [@Lakshya407](https://github.com/Lakshya407) · design, development and deployment
+- **web-logic team** · design, development and deployment
 
 ---
 
 ## Copyright
 
-© 2026 Lakshya · web-logic. All rights reserved.
+© 2026 web-logic. All rights reserved.
 
-The name, logo, copy, project artwork and screenshots in this repository are the property of the author and may not be reused without permission.
+The name, logo, copy, project artwork and screenshots in this repository are the property of web-logic and may not be reused without permission.

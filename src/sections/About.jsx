@@ -25,7 +25,7 @@ const About = () => {
   const grid2Container = useRef();
   return (
     <section className="c-space section-spacing" id="about">
-      <h2 className="text-heading">About Me</h2>
+      <h2 className="text-heading">About Us</h2>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-6 md:auto-rows-[18rem] mt-12">
         {/* Grid 1 */}
         <div className="flex items-end grid-default-color grid-1">
@@ -37,10 +37,10 @@ const About = () => {
             className="absolute scale-[1.75] -right-[5rem] -top-[1rem] opacity-50 md:scale-[3] md:left-50 md:inset-y-10 md:opacity-100 lg:scale-[2.5]"
           />
           <div className="z-10">
-            <p className="headtext">Hi, I&apos;m Lakshya</p>
+            <p className="headtext">We&apos;re web-logic</p>
             <p className="subtext">
-              Owner of web-logic. I build websites and the cloud behind them —
-              full stack, DevOps and AIOps.
+              We build websites and the cloud behind them — full stack, DevOps
+              and AIOps.
             </p>
           </div>
           <div className="absolute inset-x-0 pointer-events-none -bottom-4 h-full bg-gradient-to-t from-indigo via-indigo/60 to-transparent md:h-1/2 md:via-indigo/40" />
@@ -98,7 +98,7 @@ const About = () => {
           <div className="z-10 w-full md:w-[58%]">
             <p className="headtext">Time Zone</p>
             <p className="subtext">
-              India, <IndiaClock /> (UTC+5:30). I work with clients worldwide —
+              India, <IndiaClock /> (UTC+5:30). We work with clients worldwide —
               US, UK and Gulf hours included.
             </p>
           </div>
@@ -121,7 +121,7 @@ const About = () => {
             <p className="headText">Tech Stack</p>
             <p className="subtext">
               Linux, Docker, Kubernetes, Terraform, AWS, React and Node.js — the
-              stack I build and run on.
+              stack we build and run on.
             </p>
           </div>
           <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">

@@ -63,7 +63,7 @@ const HeroText = () => {
               href="#work"
               className="px-5 py-2.5 text-sm font-medium rounded-full bg-gradient-to-r from-royal to-lavender hover:opacity-90 hover-animation"
             >
-              View my work
+              View our work
             </a>
             <a
               href="#contact"
@@ -139,7 +139,7 @@ const HeroText = () => {
             href="#work"
             className="px-5 py-2.5 text-sm font-medium rounded-full bg-gradient-to-r from-royal to-lavender"
           >
-            View my work
+            View our work
           </a>
           <a
             href="#contact"

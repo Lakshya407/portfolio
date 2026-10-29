@@ -79,7 +79,7 @@ const Contact = () => {
       console.error(error);
       showAlertMessage(
         "danger",
-        "Could not send the message. Please email me directly."
+        "Could not send the message. Please email our team directly."
       );
     }
   };
@@ -99,7 +99,7 @@ const Contact = () => {
           <h2 className="text-heading">Let&apos;s Talk</h2>
           <p className="font-normal text-neutral-400">
             Building a site, moving to the cloud, or fixing something that broke?
-            Tell me the short version — I reply within one working day.
+            Tell us the short version — our team replies within one working day.
           </p>
           <a
             href={`mailto:${CONTACT_EMAIL}`}
@@ -203,9 +203,9 @@ const Contact = () => {
                 className="underline"
                 href={`mailto:${CONTACT_EMAIL}?subject=Project%20enquiry%20from%20website`}
               >
-                Email me directly
+                Email our team directly
               </a>{" "}
-              and I&apos;ll reply the same day.
+              and our team will reply the same day.
             </p>
           )}
         </form>

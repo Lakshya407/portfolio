@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "description": "Portfolio and studio site for web-logic — full stack development, cloud, Linux, Docker, Kubernetes and AIOps.",
-  "author": "Lakshya (web-logic)",
+  "author": "web-logic",
   "license": "UNLICENSED",
   "type": "module",
   "scripts": {

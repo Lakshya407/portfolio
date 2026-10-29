@@ -44,7 +44,7 @@ const Services = () => {
   return (
     <section className="c-space section-spacing" id="services">
       <div className="flex flex-col gap-3 md:max-w-xl">
-        <h2 className="text-heading">What I Can Do For You</h2>
+        <h2 className="text-heading">How Our Team Can Help</h2>
         <p className="subtext">
           One studio, end to end: design, build, deploy and run. So you can get
           back to the business.
@@ -88,7 +88,7 @@ const Services = () => {
           href="#contact"
           className="font-medium text-aqua underline-offset-4 hover:underline"
         >
-          Describe the problem — I&apos;ll tell you honestly.
+          Tell us what you need — our team will help you find the right fit.
         </a>
       </p>
     </section>
